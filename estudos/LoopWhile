@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String entrada = "";
+
+        while(!entrada.equalsIgnoreCase("fim")){
+            System.out.print("\nDigite uma mensagem (ou 'fim' para sair): ");
+            entrada = scanner.nextLine();
+
+            if(!entrada.equalsIgnoreCase("fim")){
+                System.out.print("Você digitou '" + entrada + "'");
+            }
+        }
+
+        System.out.print("Programa encerrado");
+        scanner.close();
+    }
+}

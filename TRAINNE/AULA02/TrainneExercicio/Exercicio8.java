@@ -20,6 +20,7 @@ public class Exercicio8 {
           
         }catch (NumberFormatException erro){
             JOptionPane.showMessageDialog(null, "Preencha os campos corretamente");
+            System.exit(0);
         }
     }
 }

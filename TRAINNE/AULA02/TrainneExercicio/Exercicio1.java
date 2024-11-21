@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Media{
+public class Exercicio1{
     public static  void main(String[]args){
         try
         {

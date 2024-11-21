@@ -38,6 +38,7 @@ public class Exercicio6 {
                 }catch (NumberFormatException erro){
                 JOptionPane.showMessageDialog(null, "Erro ,\n" +
                         "Insira os dados corretamente");
+                System.exit(0);
             }
             continuar = JOptionPane.showConfirmDialog(null,"Deseja realizar outro calculo");
 

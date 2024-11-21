@@ -22,6 +22,7 @@ public class Exercicio3 {
         }catch (NumberFormatException erro){
             JOptionPane.showMessageDialog(null, "Erro na conversão,\n" +
                     "Digite apenas caracteres numericos");
+            System.exit(0);
         }
     }
 }
